@@ -1,0 +1,54 @@
+\documentclass[landscape,twocolumn]{article}
+\usepackage{amsmath, amssymb, biblatex, graphicx, hyperref, pgfplots, pgfplotstable}
+\graphicspath{{../figures/}}
+\addbibresource{references.bib}
+\pgfplotsset{compat = 1.17}
+%\pgfplotstableread[col sep=comma]{../results/results.csv}\results
+\title{COMP5329 Assignment 2}
+\author{John Hu (zehu4485, 500395897) \and Nicholas Grasevski (ngra5777, 500710654)}
+\begin{document}
+\maketitle
+\begin{abstract}
+In this report we implement a convolutional neural network for a multi-label image classification problem.
+\end{abstract}
+
+\section{Introduction}
+\begin{itemize}
+\item What's the aim of the study?
+\item Why is the study important?
+\item The general introduction of your used method in the assignment and your motivation for such a solution.
+\end{itemize}
+
+\section{Related work}
+Existing related methods in the literature.
+
+\section{Techniques}
+\begin{itemize}
+\item The principle of your method used in this assignment.
+\item Justify the method.
+\item Any advantage or novelty of the proposed method.
+\end{itemize}
+
+\section{Experiments}
+\subsection{Performance}
+\subsubsection{Accuracy}
+\subsubsection{Efficiency}
+\subsection{Analysis}
+\subsubsection{Hyperparameters}
+\subsubsection{Ablation studies}
+\subsubsection{Comparison methods}
+
+\section{Results}
+
+\section{Discussion}
+
+\section{Conclusion}
+
+\printbibliography\appendix
+\section{Running the code}
+\begin{itemize}
+\item Dependencies: \texttt{pip install torch}
+\item Usage: \texttt{./assignment2.py}
+\end{itemize}
+The code assumes the data is stored in a directory called \texttt{input}.
+\end{document}
